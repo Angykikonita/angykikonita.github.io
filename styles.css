@@ -9,7 +9,7 @@ html {
 .spacePhoto{
   display: flex;
   padding: 30px;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .infoFiesta{
