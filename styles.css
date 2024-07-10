@@ -7,17 +7,22 @@ html {
 }
 
 .spacePhoto{
-  display: flex;
+
+  display:flex;
   padding: 30px;
   flex-direction: column;
+  flex-basis: 100px;
+  flex-grow: 1;
+  
 }
 
 .infoFiesta{
   padding: 30px;
 }
 .inforFiesta{
-  width: 800px;
-  padding: 30px;
+  display:flex;
+  width: 100%;
+
 }
 
 
@@ -158,6 +163,9 @@ html {
   }
   
   .cssbuttons-io:active {
+    transform: scale(0.95);
+  }
+  
     transform: scale(0.95);
   }
   
